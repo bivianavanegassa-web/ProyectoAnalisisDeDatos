@@ -31,12 +31,13 @@ CREATE TABLE IF NOT EXISTS Pedidos (
 
 -- Tabla de facturación (cada factura apunta a un proveedor y a un pedido)
 CREATE TABLE IF NOT EXISTS Facturacion (
-  numero_factura VARCHAR(50),
+  fecha_de_registro DATE,
   numero_radicado VARCHAR(50) PRIMARY KEY,
   nit_proveedor VARCHAR(50) NOT NULL,
   nombre_proveedor VARCHAR(150) NOT NULL,
   moneda VARCHAR(10),
   fecha_factura DATE,
+  numero_factura VARCHAR(50),
   pedido VARCHAR(50),
   valor_total DECIMAL(18,2),
   estado_factura VARCHAR(50),
@@ -47,27 +48,3 @@ CREATE TABLE IF NOT EXISTS Facturacion (
   FOREIGN KEY (pedido) REFERENCES Pedidos(Numero_pedido)
 );
 
--- NOTA: Para cargar los CSV en estas tablas puedes usar LOAD DATA INFILE (MySQL) u otro método de importación.
--- Ejemplo (ajusta la ruta al archivo y permisos):
--- LOAD DATA LOCAL INFILE 'C:/path/a/Proveedor.csv'
--- INTO TABLE Proveedores
--- FIELDS TERMINATED BY ';' ENCLOSED BY '"'
--- LINES TERMINATED BY '\n'
--- IGNORE 1 LINES
--- (nit_proveedor,nombre_proveedor,categoria,ubicacion);
-
--- LOAD DATA LOCAL INFILE 'C:/path/a/Pedidos.csv'
--- INTO TABLE Pedidos
--- FIELDS TERMINATED BY ';' ENCLOSED BY '"'
--- LINES TERMINATED BY '\n'
--- IGNORE 1 LINES
--- (Numero_pedido,nit_proveedor,nombre_proveedor,categoria,producto,cantidad,precio,@total_pedido_raw)
--- SET total_pedido = REPLACE(@total_pedido_raw,'$ ','');
-
--- LOAD DATA LOCAL INFILE 'C:/path/a/Facturacion.csv'
--- INTO TABLE Facturacion
--- FIELDS TERMINATED BY ';' ENCLOSED BY '"'
--- LINES TERMINATED BY '\n'
--- IGNORE 1 LINES
--- (Fecha_de_registro,numero_radicado,nit_proveedor,nombre_proveedor,moneda,fecha_factura,numero_factura,pedido,@valor_total_raw,estado_factura,categoria,tipo_factura,responsable)
--- SET valor_total = REPLACE(@valor_total_raw,'$ ','');
