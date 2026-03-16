@@ -1,0 +1,60 @@
+nit_proveedor;nombre_proveedor;categoria;ubicacion
+NIT0000000018;E.ON;Energía;Medellín
+NIT0000000032;Enel;Energía;Medellín
+NIT0000000040;RWE;Energía;Barranquilla
+NIT0000000008;IBM;Tecnologia;Medellín
+NIT0000000068;EY;Servicios;Medellín
+NIT0000000011;Apple;Tecnologia;Barranquilla
+NIT0000000012;Intel;Tecnologia;Medellín
+NIT0000000013;General Mills;Alimentación;Medellín
+NIT0000000014;Unilever;Alimentación;Medellín
+NIT0000000015;Dunkin Donuts;ConsultorÃ­a;Medellín
+NIT0000000017;Aramark;Servicios Publicos;Bogota
+NIT0000000020;Iberdrola;Energía;Bogota
+NIT0000000021;Engie;Energía;Cali
+NIT0000000023;TCS;Servicios;Santa Marta
+NIT0000000024;PepsiCo;Alimentación;Cali
+NIT0000000025;PwC;Servicios;Cali
+NIT0000000027;Duke Energy;Energía;Cali
+NIT0000000028;McKinsey;Servicios;Cali
+NIT0000000029;Danone;Alimentación;Bogota
+NIT0000000030;Facebook;Tecnologia;Medellin
+NIT0000000031;Microsoft;Tecnologia;Medellin
+NIT0000000033;Coca-Cola;Alimentación;Santa Marta
+NIT0000000035;Kellogg;Alimentación;Medellin
+NIT0000000036;Southern Company;Energía;Medellin
+NIT0000000037;Kraft Heinz;Alimentación;Medellin
+NIT0000000038;G4S;Servicios Publicos;Medellin
+NIT0000000041;Juan Valdez;ConsultorÃ­a;Santa Marta
+NIT0000000042;Compass Group;Servicios Publicos;Medellín
+NIT0000000043;Serco;Servicios Publicos;Cartagena
+NIT0000000045;NextEra Energy;Energía;Cartagena
+NIT0000000046;Exelon;Energía;Cartagena
+NIT0000000047;EDF;Energía;Santander
+NIT0000000048;Oracle;Tecnologia;Medellín
+NIT0000000049;Starbucks;ConsultorÃ­a;Medellín
+NIT0000000050;Accenture;Servicios;Cartagena
+NIT0000000051;Mondelez;Alimentación;Barranquilla
+NIT0000000052;KPMG;Servicios;Medellín
+NIT0000000053;Cisco;Tecnologia;Medellín
+NIT0000000056;Burger King;ConsultorÃ­a;Medellín
+NIT0000000057;KFC;ConsultorÃ­a;Cartagena
+NIT0000000058;Capgemini;Servicios;Santa Marta
+NIT0000000059;Amazon;Tecnologia;Barranquilla
+NIT0000000060;Tostao;ConsultorÃ­a;Tolima
+NIT0000000061;McDonald's;ConsultorÃ­a;Tolima
+NIT0000000062;Bain;Servicios;Medellin
+NIT0000000063;Procter & Gamble;Alimentación;Cartagena
+NIT0000000064;Securitas;Servicios Publicos;Santa Marta
+NIT0000000065;Crepes & Waffles;ConsultorÃ­a;Medellín
+NIT0000000066;SAP;Tecnologia;Medellín
+NIT0000000067;Mitie;Servicios Publicos;Medellín
+NIT0000000069;BCG;Servicios;Medellín
+NIT0000000070;Google;Tecnologia;Santa Marta
+NIT0000000001;ABM;Servicios Publicos;Medellín
+NIT0000000002;Subway;ConsultorÃ­a;Medellín
+NIT0000000003;Sodexo;Servicios Publicos;Medellín
+NIT0000000005;ISS;Servicios Publicos;Medellín
+NIT0000000006;Rentokil;Servicios Publicos;Medellín
+NIT0000000009;Oma;ConsultorÃ­a;Medellín
+NIT0000000010;Deloitte;Servicios;Santa Marta
