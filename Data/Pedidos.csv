@@ -1,0 +1,1016 @@
+Numero_pedido;nit_proveedor;nombre_proveedor;Categoria;Producto;cantidad;precio;Total pedido
+PED-4013;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);5;6500000;32500000
+PED-4014;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;2;8200000;16400000
+PED-4024;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;3;7000000;21000000
+PED-4029;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);1;5800000;5800000
+PED-4033;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;2;9000000;18000000
+PED-4035;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);1;6300000;6300000
+PED-4037;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;1;4500000;4500000
+PED-4051;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;1;6900000;6900000
+PED-4063;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;1;7200000;7200000
+PED-4083;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);1;6500000;6500000
+PED-4084;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;1;8200000;8200000
+PED-4094;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;1;7000000;7000000
+PED-4099;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);1;5800000;5800000
+PED-4103;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;1;9000000;9000000
+PED-4105;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);5;6300000;31500000
+PED-4107;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;5;4500000;22500000
+PED-4121;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;6;6900000;41400000
+PED-4133;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;4;7200000;28800000
+PED-4153;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);3;6500000;19500000
+PED-4154;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;3;8200000;24600000
+PED-4164;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;2;7000000;14000000
+PED-4169;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);2;5800000;11600000
+PED-4173;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;2;9000000;18000000
+PED-4175;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);2;6300000;12600000
+PED-4177;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;9;4500000;40500000
+PED-4191;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;2;6900000;13800000
+PED-4203;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;2;7200000;14400000
+PED-4223;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);2;6500000;13000000
+PED-4224;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;2;8200000;16400000
+PED-4234;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;2;7000000;14000000
+PED-4239;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);2;5800000;11600000
+PED-4243;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;2;9000000;18000000
+PED-4245;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);2;6300000;12600000
+PED-4247;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;2;4500000;9000000
+PED-4261;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;2;6900000;13800000
+PED-4273;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;2;7200000;14400000
+PED-4293;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);2;6500000;13000000
+PED-4294;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;2;8200000;16400000
+PED-4304;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;2;7000000;14000000
+PED-4309;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);2;5800000;11600000
+PED-4313;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;1;9000000;9000000
+PED-4315;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);1;6300000;6300000
+PED-4317;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;1;4500000;4500000
+PED-4331;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;1;6900000;6900000
+PED-4343;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;1;7200000;7200000
+PED-4363;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);1;6500000;6500000
+PED-4364;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;1;8200000;8200000
+PED-4374;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;1;7000000;7000000
+PED-4379;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);1;5800000;5800000
+PED-4383;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;2;9000000;18000000
+PED-4385;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);3;6300000;18900000
+PED-4387;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;2;4500000;9000000
+PED-4401;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;3;6900000;20700000
+PED-4413;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;3;7200000;21600000
+PED-4433;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);3;6500000;19500000
+PED-4434;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;3;8200000;24600000
+PED-4444;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;2;7000000;14000000
+PED-4449;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);2;5800000;11600000
+PED-4453;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;2;9000000;18000000
+PED-4455;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);2;6300000;12600000
+PED-4457;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;2;4500000;9000000
+PED-4471;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;2;6900000;13800000
+PED-4483;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;1;7200000;7200000
+PED-4503;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);1;6500000;6500000
+PED-4504;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;1;8200000;8200000
+PED-4514;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;1;7000000;7000000
+PED-4519;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);1;5800000;5800000
+PED-4523;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;1;9000000;9000000
+PED-4525;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);1;6300000;6300000
+PED-4527;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;1;4500000;4500000
+PED-4541;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;1;6900000;6900000
+PED-4553;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;1;7200000;7200000
+PED-4573;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);1;6500000;6500000
+PED-4574;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;1;8200000;8200000
+PED-4584;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;1;7000000;7000000
+PED-4589;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);1;5800000;5800000
+PED-4593;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;3;9000000;27000000
+PED-4595;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);3;6300000;18900000
+PED-4597;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;4;4500000;18000000
+PED-4611;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;5;6900000;34500000
+PED-4623;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;6;7200000;43200000
+PED-4643;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);6;6500000;39000000
+PED-4644;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;7;8200000;57400000
+PED-4654;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;1;7000000;7000000
+PED-4659;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);1;5800000;5800000
+PED-4663;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;1;9000000;9000000
+PED-4665;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);1;6300000;6300000
+PED-4667;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;1;4500000;4500000
+PED-4681;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;1;6900000;6900000
+PED-4693;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;1;7200000;7200000
+PED-4713;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);1;6500000;6500000
+PED-4714;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;1;8200000;8200000
+PED-4724;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;1;7000000;7000000
+PED-4729;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);1;5800000;5800000
+PED-4733;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;1;9000000;9000000
+PED-4735;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);2;6300000;12600000
+PED-4737;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;2;4500000;9000000
+PED-4751;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;2;6900000;13800000
+PED-4763;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;2;7200000;14400000
+PED-4783;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);2;6500000;13000000
+PED-4784;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;2;8200000;16400000
+PED-4794;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;2;7000000;14000000
+PED-4799;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);4;5800000;23200000
+PED-4803;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;4;9000000;36000000
+PED-4805;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);4;6300000;25200000
+PED-4807;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;4;4500000;18000000
+PED-4821;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;4;6900000;27600000
+PED-4833;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;4;7200000;28800000
+PED-4853;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);5;6500000;32500000
+PED-4854;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;5;8200000;41000000
+PED-4864;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;5;7000000;35000000
+PED-4869;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);1;5800000;5800000
+PED-4873;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;1;9000000;9000000
+PED-4875;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);2;6300000;12600000
+PED-4877;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;2;4500000;9000000
+PED-4891;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;2;6900000;13800000
+PED-4903;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;2;7200000;14400000
+PED-4923;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);2;6500000;13000000
+PED-4924;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;2;8200000;16400000
+PED-4934;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;1;7000000;7000000
+PED-4939;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);1;5800000;5800000
+PED-4943;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;1;9000000;9000000
+PED-4945;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);1;6300000;6300000
+PED-4947;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;1;4500000;4500000
+PED-4961;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;1;6900000;6900000
+PED-4973;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;2;7200000;14400000
+PED-4993;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);2;6500000;13000000
+PED-4994;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;2;8200000;16400000
+PED-5004;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;2;7000000;14000000
+PED-5009;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);1;5800000;5800000
+PED-5013;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;1;9000000;9000000
+PED-5015;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);1;6300000;6300000
+PED-5017;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;1;4500000;4500000
+PED-5031;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;1;6900000;6900000
+PED-5043;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;1;7200000;7200000
+PED-5063;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);1;6500000;6500000
+PED-5064;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;1;8200000;8200000
+PED-5074;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;1;7000000;7000000
+PED-5079;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);1;5800000;5800000
+PED-5083;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;1;9000000;9000000
+PED-5085;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);1;6300000;6300000
+PED-5087;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;1;4500000;4500000
+PED-5101;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;1;6900000;6900000
+PED-5113;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;2;7200000;14400000
+PED-5133;NIT0000000013;General Mills;Alimentaci�n;Suministro mayorista de cereales para retail (pedido 500 kg);2;6500000;13000000
+PED-5134;NIT0000000014;Unilever;Alimentaci�n;Distribuci�n mayorista de productos alimenticios para supermercados;2;8200000;16400000
+PED-5144;NIT0000000024;PepsiCo;Alimentaci�n;Venta mayorista snacks para cadenas de tiendas;2;7000000;14000000
+PED-5149;NIT0000000029;Danone;Alimentaci�n;Distribuci�n yogures para supermercados (pedido mayorista);2;5800000;11600000
+PED-5153;NIT0000000033;Coca-Cola;Alimentaci�n;Suministro bebidas para restaurantes y supermercados;2;9000000;18000000
+PED-5155;NIT0000000035;Kellogg;Alimentaci�n;Distribuci�n cereal para retail (lote mayorista);2;6300000;12600000
+PED-5157;NIT0000000037;Kraft Heinz;Alimentaci�n;Suministro salsas y condimentos para restaurantes;2;4500000;9000000
+PED-5171;NIT0000000051;Mondelez;Alimentaci�n;Venta mayorista galletas para supermercados;2;6900000;13800000
+PED-5183;NIT0000000063;Procter & Gamble;Alimentaci�n;Suministro snacks y alimentos empaquetados para retail;2;7200000;14400000
+PED-4015;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;2;35000000;70000000
+PED-4041;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;2;4200000;8400000
+PED-4049;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;2;5500000;11000000
+PED-4056;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;2;45000000;90000000
+PED-4057;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;2;38000000;76000000
+PED-4060;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;2;3800000;7600000
+PED-4061;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;2;60000000;120000000
+PED-4065;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;2;7500000;15000000
+PED-4072;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;2;9000000;18000000
+PED-4079;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;2;3200000;6400000
+PED-4085;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;2;35000000;70000000
+PED-4111;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;2;4200000;8400000
+PED-4119;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;1;5500000;5500000
+PED-4126;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;1;45000000;45000000
+PED-4127;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;1;38000000;38000000
+PED-4130;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;1;3800000;3800000
+PED-4131;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;1;60000000;60000000
+PED-4135;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;1;7500000;7500000
+PED-4142;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;1;9000000;9000000
+PED-4149;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;1;3200000;3200000
+PED-4155;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;1;35000000;35000000
+PED-4181;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;1;4200000;4200000
+PED-4189;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;1;5500000;5500000
+PED-4196;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;2;45000000;90000000
+PED-4197;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;1;38000000;38000000
+PED-4200;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;1;3800000;3800000
+PED-4201;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;2;60000000;120000000
+PED-4205;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;1;7500000;7500000
+PED-4212;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;2;9000000;18000000
+PED-4219;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;1;3200000;3200000
+PED-4225;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;2;35000000;70000000
+PED-4251;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;1;4200000;4200000
+PED-4259;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;2;5500000;11000000
+PED-4266;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;1;45000000;45000000
+PED-4267;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;2;38000000;76000000
+PED-4270;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;1;3800000;3800000
+PED-4271;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;2;60000000;120000000
+PED-4275;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;1;7500000;7500000
+PED-4282;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;2;9000000;18000000
+PED-4289;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;1;3200000;3200000
+PED-4295;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;2;35000000;70000000
+PED-4321;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;1;4200000;4200000
+PED-4329;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;2;5500000;11000000
+PED-4336;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;1;45000000;45000000
+PED-4337;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;2;38000000;76000000
+PED-4340;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;1;3800000;3800000
+PED-4341;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;2;60000000;120000000
+PED-4345;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;1;7500000;7500000
+PED-4352;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;2;9000000;18000000
+PED-4359;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;1;3200000;3200000
+PED-4365;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;1;35000000;35000000
+PED-4391;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;1;4200000;4200000
+PED-4399;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;1;5500000;5500000
+PED-4406;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;1;45000000;45000000
+PED-4407;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;1;38000000;38000000
+PED-4410;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;1;3800000;3800000
+PED-4411;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;1;60000000;60000000
+PED-4415;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;1;7500000;7500000
+PED-4422;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;1;9000000;9000000
+PED-4429;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;1;3200000;3200000
+PED-4435;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;1;35000000;35000000
+PED-4461;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;1;4200000;4200000
+PED-4469;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;2;5500000;11000000
+PED-4476;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;2;45000000;90000000
+PED-4477;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;2;38000000;76000000
+PED-4480;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;2;3800000;7600000
+PED-4481;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;2;60000000;120000000
+PED-4485;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;3;7500000;22500000
+PED-4492;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;3;9000000;27000000
+PED-4499;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;1;3200000;3200000
+PED-4505;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;1;35000000;35000000
+PED-4531;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;1;4200000;4200000
+PED-4539;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;1;5500000;5500000
+PED-4546;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;3;45000000;135000000
+PED-4547;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;3;38000000;114000000
+PED-4550;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;2;3800000;7600000
+PED-4551;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;1;60000000;60000000
+PED-4555;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;1;7500000;7500000
+PED-4562;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;3;9000000;27000000
+PED-4569;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;2;3200000;6400000
+PED-4575;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;2;35000000;70000000
+PED-4601;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;1;4200000;4200000
+PED-4609;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;1;5500000;5500000
+PED-4616;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;1;45000000;45000000
+PED-4617;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;1;38000000;38000000
+PED-4620;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;1;3800000;3800000
+PED-4621;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;1;60000000;60000000
+PED-4625;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;1;7500000;7500000
+PED-4632;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;1;9000000;9000000
+PED-4639;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;1;3200000;3200000
+PED-4645;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;1;35000000;35000000
+PED-4671;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;1;4200000;4200000
+PED-4679;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;1;5500000;5500000
+PED-4686;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;1;45000000;45000000
+PED-4687;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;1;38000000;38000000
+PED-4690;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;2;3800000;7600000
+PED-4691;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;1;60000000;60000000
+PED-4695;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;1;7500000;7500000
+PED-4702;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;1;9000000;9000000
+PED-4709;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;3;3200000;9600000
+PED-4715;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;2;35000000;70000000
+PED-4741;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;1;4200000;4200000
+PED-4749;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;1;5500000;5500000
+PED-4756;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;2;45000000;90000000
+PED-4757;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;1;38000000;38000000
+PED-4760;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;1;3800000;3800000
+PED-4761;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;2;60000000;120000000
+PED-4765;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;3;7500000;22500000
+PED-4772;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;2;9000000;18000000
+PED-4779;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;2;3200000;6400000
+PED-4785;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;1;35000000;35000000
+PED-4811;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;2;4200000;8400000
+PED-4819;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;1;5500000;5500000
+PED-4826;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;2;45000000;90000000
+PED-4827;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;1;38000000;38000000
+PED-4830;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;2;3800000;7600000
+PED-4831;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;1;60000000;60000000
+PED-4835;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;2;7500000;15000000
+PED-4842;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;1;9000000;9000000
+PED-4849;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;2;3200000;6400000
+PED-4855;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;1;35000000;35000000
+PED-4881;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;2;4200000;8400000
+PED-4889;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;1;5500000;5500000
+PED-4896;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;2;45000000;90000000
+PED-4897;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;1;38000000;38000000
+PED-4900;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;2;3800000;7600000
+PED-4901;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;1;60000000;60000000
+PED-4905;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;2;7500000;15000000
+PED-4912;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;1;9000000;9000000
+PED-4919;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;2;3200000;6400000
+PED-4925;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;1;35000000;35000000
+PED-4951;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;2;4200000;8400000
+PED-4959;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;1;5500000;5500000
+PED-4966;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;2;45000000;90000000
+PED-4967;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;1;38000000;38000000
+PED-4970;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;2;3800000;7600000
+PED-4971;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;1;60000000;60000000
+PED-4975;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;1;7500000;7500000
+PED-4982;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;1;9000000;9000000
+PED-4989;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;1;3200000;3200000
+PED-4995;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;1;35000000;35000000
+PED-5021;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;1;4200000;4200000
+PED-5029;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;1;5500000;5500000
+PED-5036;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;1;45000000;45000000
+PED-5037;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;1;38000000;38000000
+PED-5040;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;1;3800000;3800000
+PED-5041;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;2;60000000;120000000
+PED-5045;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;2;7500000;15000000
+PED-5052;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;2;9000000;18000000
+PED-5059;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;2;3200000;6400000
+PED-5065;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;2;35000000;70000000
+PED-5091;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;2;4200000;8400000
+PED-5099;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;2;5500000;11000000
+PED-5106;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;3;45000000;135000000
+PED-5107;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;3;38000000;114000000
+PED-5110;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;3;3800000;11400000
+PED-5111;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;3;60000000;180000000
+PED-5115;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;3;7500000;22500000
+PED-5122;NIT0000000002;Subway;Consultor�a;Suministro ingredientes para franquicias;3;9000000;27000000
+PED-5129;NIT0000000009;Oma;Consultor�a;Venta caf� tostado para empresas;3;3200000;9600000
+PED-5135;NIT0000000015;Dunkin Donuts;Consultor�a;Franquicia y suministro de productos para tiendas;3;35000000;105000000
+PED-5161;NIT0000000041;Juan Valdez;Consultor�a;Suministro caf� premium para hoteles y restaurantes;1;4200000;4200000
+PED-5169;NIT0000000049;Starbucks;Consultor�a;Venta caf� en grano para empresas y hoteles;1;5500000;5500000
+PED-5176;NIT0000000056;Burger King;Consultor�a;Licencia de franquicia y suministro alimenticio;1;45000000;45000000
+PED-5177;NIT0000000057;KFC;Consultor�a;Suministro pollo procesado para franquicias;1;38000000;38000000
+PED-5180;NIT0000000060;Tostao;Consultor�a;Distribuci�n caf� y panader�a para tiendas;1;3800000;3800000
+PED-5181;NIT0000000061;McDonald's;Consultor�a;Franquicia restaurante y suministro de alimentos;1;60000000;60000000
+PED-5185;NIT0000000065;Crepes & Waffles;Consultor�a;Suministro postres y alimentos para puntos franquiciados;1;7500000;7500000
+PED-4928;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;3;18000000;54000000
+PED-5712;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-6000;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-7028;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;1;18000000;18000000
+PED-7812;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;3;20000000;60000000
+PED-9128;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;3;18000000;54000000
+PED-9912;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;3;20000000;60000000
+PED-14672;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;3;20000000;60000000
+PED-27280;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;3;19000000;57000000
+PED-33922;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;2;20000000;40000000
+PED-39452;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;2;20000000;40000000
+PED-60872;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;2;20000000;40000000
+PED-68012;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;2;20000000;40000000
+PED-4018;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;2;18000000;36000000
+PED-4020;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;2;17500000;35000000
+PED-4021;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-4027;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-4032;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-4036;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-4040;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-4045;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-4046;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-4047;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-4088;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;1;18000000;18000000
+PED-4090;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;1;17500000;17500000
+PED-4091;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;2;22000000;44000000
+PED-4097;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;2;21500000;43000000
+PED-4102;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;2;20000000;40000000
+PED-4106;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;2;19800000;39600000
+PED-4110;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;2;19000000;38000000
+PED-4115;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;2;23000000;46000000
+PED-4116;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;2;18700000;37400000
+PED-4117;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;2;19200000;38400000
+PED-4158;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;2;18000000;36000000
+PED-4160;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;2;17500000;35000000
+PED-4161;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-4167;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-4172;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-4176;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-4180;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-4185;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-4186;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-4187;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-4228;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;1;18000000;18000000
+PED-4230;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;1;17500000;17500000
+PED-4231;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-4237;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-4242;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-4246;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-4250;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-4255;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-4256;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;2;18700000;37400000
+PED-4257;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;2;19200000;38400000
+PED-4298;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;2;18000000;36000000
+PED-4300;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;2;17500000;35000000
+PED-4301;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-4307;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-4312;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-4316;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;2;19800000;39600000
+PED-4320;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-4325;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-4326;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-4327;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-4368;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;1;18000000;18000000
+PED-4370;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;1;17500000;17500000
+PED-4371;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-4377;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-4382;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-4386;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-4390;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-4395;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-4396;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-4397;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-4438;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;1;18000000;18000000
+PED-4440;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;1;17500000;17500000
+PED-4441;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-4447;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-4452;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-4456;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-4460;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-4465;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-4466;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-4467;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-4508;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;1;18000000;18000000
+PED-4510;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;1;17500000;17500000
+PED-4511;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-4517;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-4522;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-4526;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-4530;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-4535;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-4536;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-4537;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-4578;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;1;18000000;18000000
+PED-4580;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;1;17500000;17500000
+PED-4581;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-4587;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-4592;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-4596;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-4600;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-4605;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-4606;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-4607;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-4648;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;1;18000000;18000000
+PED-4650;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;1;17500000;17500000
+PED-4651;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-4657;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-4662;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-4666;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-4670;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-4675;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-4676;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-4677;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-4718;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;1;18000000;18000000
+PED-4720;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;1;17500000;17500000
+PED-4721;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-4727;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-4732;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-4736;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-4740;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-4745;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-4746;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-4747;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-4788;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;1;18000000;18000000
+PED-4790;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;1;17500000;17500000
+PED-4791;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-4797;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-4802;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-4806;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-4810;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-4815;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-4816;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-4817;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-4858;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;1;18000000;18000000
+PED-4860;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;1;17500000;17500000
+PED-4861;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-4867;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-4872;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-4876;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-4880;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-4885;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-4886;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-4887;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-4930;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;1;17500000;17500000
+PED-4931;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-4937;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-4942;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-4946;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-4950;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-4955;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-4956;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-4957;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-4998;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;1;18000000;18000000
+PED-5000;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;1;17500000;17500000
+PED-5001;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-5007;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-5012;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-5016;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-5020;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-5025;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-5026;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-5027;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-5068;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;1;18000000;18000000
+PED-5070;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;1;17500000;17500000
+PED-5071;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-5077;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-5082;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-5086;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-5090;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-5095;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-5096;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-5097;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-5138;NIT0000000018;E.ON;Energ�a;Contrato suministro energ�a corporativa mensual;1;18000000;18000000
+PED-5140;NIT0000000020;Iberdrola;Energ�a;Suministro electricidad corporativa;1;17500000;17500000
+PED-5141;NIT0000000021;Engie;Energ�a;Contrato energ�a para industria;1;22000000;22000000
+PED-5147;NIT0000000027;Duke Energy;Energ�a;Suministro energ�a industrial;1;21500000;21500000
+PED-5152;NIT0000000032;Enel;Energ�a;Servicio energ�a el�ctrica industrial mensual;1;20000000;20000000
+PED-5156;NIT0000000036;Southern Company;Energ�a;Energ�a el�ctrica corporativa;1;19800000;19800000
+PED-5160;NIT0000000040;RWE;Energ�a;Contrato energ�a para empresas;1;19000000;19000000
+PED-5165;NIT0000000045;NextEra Energy;Energ�a;Energ�a renovable para empresas;1;23000000;23000000
+PED-5166;NIT0000000046;Exelon;Energ�a;Servicio energ�a comercial;1;18700000;18700000
+PED-5167;NIT0000000047;EDF;Energ�a;Suministro energ�a corporativa;1;19200000;19200000
+PED-88488;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4023;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-4025;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-4028;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-4050;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-4052;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-4058;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-4062;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;2;80000000;160000000
+PED-4068;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4069;NIT0000000069;BCG;Servicios;Estrategia empresarial;2;50000000;100000000
+PED-4080;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-4093;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-4095;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-4098;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-4120;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-4122;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-4128;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-4132;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;2;90000000;180000000
+PED-4138;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4139;NIT0000000069;BCG;Servicios;Estrategia empresarial;2;50000000;100000000
+PED-4150;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-4163;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-4165;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-4168;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-4190;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-4192;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-4198;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-4202;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;2;90000000;180000000
+PED-4208;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4209;NIT0000000069;BCG;Servicios;Estrategia empresarial;2;50000000;100000000
+PED-4220;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-4233;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-4235;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-4238;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-4260;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-4262;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-4268;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-4272;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;1;140000000;140000000
+PED-4278;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4279;NIT0000000069;BCG;Servicios;Estrategia empresarial;2;145000000;290000000
+PED-4290;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-4303;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-4305;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-4308;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-4330;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-4332;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-4338;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-4342;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;1;140000000;140000000
+PED-4348;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4349;NIT0000000069;BCG;Servicios;Estrategia empresarial;1;145000000;145000000
+PED-4360;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-4373;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-4375;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-4378;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-4400;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-4402;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-4408;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-4412;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;1;140000000;140000000
+PED-4418;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4419;NIT0000000069;BCG;Servicios;Estrategia empresarial;1;145000000;145000000
+PED-4430;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-4443;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-4445;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-4448;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-4470;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-4472;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-4478;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-4482;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;1;140000000;140000000
+PED-4488;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4489;NIT0000000069;BCG;Servicios;Estrategia empresarial;1;145000000;145000000
+PED-4500;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-4513;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-4515;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-4518;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-4540;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-4542;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-4548;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-4552;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;1;140000000;140000000
+PED-4558;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4559;NIT0000000069;BCG;Servicios;Estrategia empresarial;1;145000000;145000000
+PED-4570;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-4583;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-4588;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-4610;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-4612;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-4618;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-4622;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;1;140000000;140000000
+PED-4628;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4629;NIT0000000069;BCG;Servicios;Estrategia empresarial;1;145000000;145000000
+PED-4640;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-4653;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-4655;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-4658;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-4680;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-4682;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-4688;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-4692;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;1;140000000;140000000
+PED-4698;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4699;NIT0000000069;BCG;Servicios;Estrategia empresarial;1;145000000;145000000
+PED-4710;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-4723;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-4725;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-4728;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-4750;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-4752;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-4758;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-4762;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;1;140000000;140000000
+PED-4768;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4769;NIT0000000069;BCG;Servicios;Estrategia empresarial;1;145000000;145000000
+PED-4780;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-4793;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-4795;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-4798;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-4820;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-4822;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-4828;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-4832;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;2;35000000;70000000
+PED-4838;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4839;NIT0000000069;BCG;Servicios;Estrategia empresarial;1;145000000;145000000
+PED-4850;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-4863;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-4865;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-4868;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-4890;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-4892;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-4898;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-4902;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;2;35000000;70000000
+PED-4908;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4909;NIT0000000069;BCG;Servicios;Estrategia empresarial;1;145000000;145000000
+PED-4920;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-4933;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-4935;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-4938;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-4960;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-4962;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-4968;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-4972;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;1;140000000;140000000
+PED-4978;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-4979;NIT0000000069;BCG;Servicios;Estrategia empresarial;1;145000000;145000000
+PED-4990;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-5003;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-5005;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-5008;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-5030;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-5032;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-5038;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-5042;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;1;140000000;140000000
+PED-5048;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-5049;NIT0000000069;BCG;Servicios;Estrategia empresarial;1;145000000;145000000
+PED-5060;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-5073;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-5075;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-5078;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;1;150000000;150000000
+PED-5100;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-5102;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-5108;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-5112;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;1;140000000;140000000
+PED-5118;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-5119;NIT0000000069;BCG;Servicios;Estrategia empresarial;1;145000000;145000000
+PED-5130;NIT0000000010;Deloitte;Servicios;Auditor�a y consultor�a empresarial;1;40000000;40000000
+PED-5143;NIT0000000023;TCS;Servicios;Desarrollo software empresarial;1;120000000;120000000
+PED-5145;NIT0000000025;PwC;Servicios;Consultor�a fiscal corporativa;1;28000000;28000000
+PED-5148;NIT0000000028;McKinsey;Servicios;Consultor�a estrat�gica empresarial;2;150000000;300000000
+PED-5170;NIT0000000050;Accenture;Servicios;Transformaci�n digital corporativa;1;95000000;95000000
+PED-5172;NIT0000000052;KPMG;Servicios;Auditor�a corporativa;1;30000000;30000000
+PED-5178;NIT0000000058;Capgemini;Servicios;Implementaci�n soluciones IT empresariales;1;80000000;80000000
+PED-5182;NIT0000000062;Bain;Servicios;Consultor�a estrat�gica;1;140000000;140000000
+PED-5188;NIT0000000068;EY;Servicios;Auditor�a financiera corporativa;1;35000000;35000000
+PED-5189;NIT0000000069;BCG;Servicios;Estrategia empresarial;1;145000000;145000000
+PED-4017;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-4038;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-4042;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-4043;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-4064;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-4067;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-4071;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-4073;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;5;11000000;55000000
+PED-4075;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-4076;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-4087;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-4108;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-4112;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-4113;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-4134;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-4137;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-4141;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-4143;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;4;11000000;44000000
+PED-4145;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-4146;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-4157;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-4178;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-4182;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-4183;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-4204;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-4207;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-4211;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-4213;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;1;11000000;11000000
+PED-4215;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-4216;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-4227;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-4248;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-4252;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-4253;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-4274;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-4277;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-4281;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-4283;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;3;11000000;33000000
+PED-4285;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-4286;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-4297;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-4318;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-4322;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-4323;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-4344;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-4347;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-4351;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-4353;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;1;11000000;11000000
+PED-4355;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-4356;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-4367;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-4388;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-4392;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-4393;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-4414;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-4417;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-4421;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-4423;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;5;11000000;55000000
+PED-4425;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;4;9800000;39200000
+PED-4426;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-4437;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-4458;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-4462;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-4463;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-4484;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-4487;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-4491;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-4493;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;1;11000000;11000000
+PED-4495;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-4496;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-4507;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-4528;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-4532;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-4533;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-4554;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-4557;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-4561;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-4563;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;1;11000000;11000000
+PED-4565;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-4566;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-4577;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-4598;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-4602;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-4603;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-4624;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-4627;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-4631;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-4633;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;1;11000000;11000000
+PED-4635;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-4636;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-4647;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-4668;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-4672;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-4673;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-4694;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-4697;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-4701;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-4703;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;1;11000000;11000000
+PED-4705;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-4706;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-4717;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-4738;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-4742;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-4743;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-4764;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-4767;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-4771;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-4773;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;1;11000000;11000000
+PED-4775;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-4776;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-4787;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-4808;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-4812;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-4813;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-4834;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-4837;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-4841;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-4843;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;1;11000000;11000000
+PED-4845;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-4846;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-4857;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-4878;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-4882;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-4883;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-4904;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-4907;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-4911;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-4913;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;1;11000000;11000000
+PED-4915;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-4916;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-4927;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-4948;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-4952;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-4953;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-4974;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-4977;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-4981;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-4983;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;1;11000000;11000000
+PED-4985;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-4986;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-4997;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-5018;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-5022;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-5023;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-5044;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-5047;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-5051;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-5053;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;1;11000000;11000000
+PED-5055;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-5056;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-5067;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-5088;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-5092;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-5093;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-5114;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-5117;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-5121;NIT0000000001;ABM;Servicios P�blicos;Limpieza corporativa instalaciones;1;6200000;6200000
+PED-5123;NIT0000000003;Sodexo;Servicios P�blicos;Alimentaci�n corporativa;1;11000000;11000000
+PED-5125;NIT0000000005;ISS;Servicios P�blicos;Facility management empresarial;1;9800000;9800000
+PED-5126;NIT0000000006;Rentokil;Servicios P�blicos;Control plagas industrial;1;1200000;1200000
+PED-5137;NIT0000000017;Aramark;Servicios P�blicos;Servicio alimentaci�n empresarial mensual;1;12000000;12000000
+PED-5158;NIT0000000038;G4S;Servicios P�blicos;Servicio vigilancia corporativa mensual;1;8500000;8500000
+PED-5162;NIT0000000042;Compass Group;Servicios P�blicos;Catering empresarial;1;10500000;10500000
+PED-5163;NIT0000000043;Serco;Servicios P�blicos;Gesti�n de instalaciones empresariales;1;9000000;9000000
+PED-5184;NIT0000000064;Securitas;Servicios P�blicos;Seguridad privada corporativa;1;8700000;8700000
+PED-5187;NIT0000000067;Mitie;Servicios P�blicos;Mantenimiento corporativo instalaciones;1;7500000;7500000
+PED-11708;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-18848;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-25988;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-33128;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-41948;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-49088;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-56228;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-63368;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-70508;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-4011;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4012;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-4030;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-4031;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;3;18000000;54000000
+PED-4048;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;3;40000000;120000000
+PED-4053;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-4059;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-4066;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;1;120000000;120000000
+PED-4070;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-4078;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-4081;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4082;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-4100;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-4101;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;3;18000000;54000000
+PED-4118;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;3;40000000;120000000
+PED-4123;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-4129;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-4136;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;1;120000000;120000000
+PED-4140;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-4148;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-4151;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4152;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-4170;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-4171;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;3;18000000;54000000
+PED-4193;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-4199;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-4206;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;1;120000000;120000000
+PED-4210;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-4218;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-4221;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4222;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-4240;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-4241;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;3;18000000;54000000
+PED-4258;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;3;40000000;120000000
+PED-4263;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-4269;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-4276;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;1;120000000;120000000
+PED-4280;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-4288;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-4291;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4292;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-4310;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-4311;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;3;18000000;54000000
+PED-4328;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;3;40000000;120000000
+PED-4333;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-4339;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-4346;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;1;120000000;120000000
+PED-4350;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-4358;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-4361;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4362;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-4380;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-4381;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;3;18000000;54000000
+PED-4398;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;3;40000000;120000000
+PED-4403;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-4409;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-4416;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;1;120000000;120000000
+PED-4420;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-4428;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;3;25000000;75000000
+PED-4431;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4432;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-4450;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-4451;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;3;18000000;54000000
+PED-4468;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;3;40000000;120000000
+PED-4473;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-4479;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-4486;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;2;120000000;240000000
+PED-4490;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-4498;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;2;25000000;50000000
+PED-4501;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4502;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-4520;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-4521;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;2;18000000;36000000
+PED-4538;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;2;40000000;80000000
+PED-4543;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-4549;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-4556;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;2;120000000;240000000
+PED-4560;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-4568;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;2;25000000;50000000
+PED-4571;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4572;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-4590;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-4591;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;1;18000000;18000000
+PED-4608;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;1;40000000;40000000
+PED-4613;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-4619;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-4626;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;1;120000000;120000000
+PED-4630;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-4638;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;1;25000000;25000000
+PED-4641;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4642;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-4660;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-4661;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;1;18000000;18000000
+PED-4678;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;2;40000000;80000000
+PED-4683;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-4689;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-4696;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;2;120000000;240000000
+PED-4700;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-4708;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;2;25000000;50000000
+PED-4711;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4712;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-4730;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-4731;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;2;18000000;36000000
+PED-4748;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;2;40000000;80000000
+PED-4753;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-4759;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-4766;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;2;120000000;240000000
+PED-4770;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-4778;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;2;25000000;50000000
+PED-4781;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4782;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-4800;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-4801;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;2;18000000;36000000
+PED-4818;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;2;40000000;80000000
+PED-4823;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-4829;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-4836;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;1;120000000;120000000
+PED-4840;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-4848;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;2;25000000;50000000
+PED-4851;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4852;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-4870;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-4871;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;2;18000000;36000000
+PED-4888;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;2;40000000;80000000
+PED-4893;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-4899;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-4906;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;2;120000000;240000000
+PED-4910;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-4918;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;2;25000000;50000000
+PED-4921;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4922;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-4940;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-4941;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;2;18000000;36000000
+PED-4958;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;2;40000000;80000000
+PED-4963;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-4969;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-4976;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;2;120000000;240000000
+PED-4980;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-4988;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;2;25000000;50000000
+PED-4991;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-4992;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-5010;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-5011;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;2;18000000;36000000
+PED-5028;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;2;40000000;80000000
+PED-5033;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-5039;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-5046;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;2;120000000;240000000
+PED-5050;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-5058;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;2;25000000;50000000
+PED-5061;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-5062;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-5080;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-5081;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;2;18000000;36000000
+PED-5098;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;2;40000000;80000000
+PED-5103;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-5109;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-5116;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;2;120000000;240000000
+PED-5120;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
+PED-5128;NIT0000000008;IBM;Tecnologia;Licencias software empresarial;2;25000000;50000000
+PED-5131;NIT0000000011;Apple;Tecnologia;MacBook Pro para empresas (lote corporativo);1;45000000;45000000
+PED-5132;NIT0000000012;Intel;Tecnologia;Procesadores para servidores empresariales;1;32000000;32000000
+PED-5150;NIT0000000030;Facebook;Tecnologia;Publicidad digital corporativa;1;5000000;5000000
+PED-5151;NIT0000000031;Microsoft;Tecnologia;Licencias Microsoft 365 corporativas;2;18000000;36000000
+PED-5168;NIT0000000048;Oracle;Tecnologia;Licencia base de datos empresarial;2;40000000;80000000
+PED-5173;NIT0000000053;Cisco;Tecnologia;Equipos red corporativa;1;35000000;35000000
+PED-5179;NIT0000000059;Amazon;Tecnologia;Infraestructura cloud AWS mensual;1;22000000;22000000
+PED-5186;NIT0000000066;SAP;Tecnologia;Licencia ERP empresarial;2;120000000;240000000
+PED-5190;NIT0000000070;Google;Tecnologia;Google Workspace empresarial;1;15000000;15000000
