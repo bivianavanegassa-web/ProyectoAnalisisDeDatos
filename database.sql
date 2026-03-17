@@ -124,3 +124,34 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2026-03-15 22:53:00
+-- Realizamos consultas
+-- SELECT * from proveedores WHERE categoria = "Servicios Publicos";
+-- SELECT * from facturacion inner JOIN proveedores on facturacion.nit_proveedor  = proveedores.nit_proveedor WHERE proveedores.nombre_proveedor = "ABM";
+
+-- Limpieza de valores en los atributos de la tabla facturacion, para la correcta lectura de las tildes
+UPDATE facturacion set categoria = REPLACE(categoria,'EnergÃ­a','Energia') WHERE numero_radicado LIKE 'NT%';
+UPDATE facturacion set categoria = REPLACE(categoria,'AlimentaciÃ³n','Alimentacion') WHERE numero_radicado LIKE 'NT%';
+UPDATE facturacion set categoria = REPLACE(categoria,'ConsultorÃ­a','Consultoria') WHERE numero_radicado LIKE 'NT%';
+UPDATE facturacion set categoria = REPLACE(categoria,'Servicios PÃºblicos','Servicios Publicos') WHERE numero_radicado LIKE 'NT%';
+
+-- Limpieza de valores en los atributos de la tabla proveedores, para la correcta lectura de las tildes
+UPDATE proveedores set categoria = REPLACE(categoria,'Energía','Energia') WHERE nit_proveedor LIKE 'NIT%';
+UPDATE proveedores set categoria = REPLACE(categoria,'Alimentación','Alimentacion') WHERE nit_proveedor LIKE 'NIT%';
+UPDATE proveedores set categoria = REPLACE(categoria,'ConsultorÃ­a','Consultoria') WHERE nit_proveedor LIKE 'NIT%';
+
+-- Limpieza de valores en los atributos de la tabla pedidos, para la correcta lectura de las tildes
+UPDATE pedidos set categoria = REPLACE(categoria,'Energï¿½a','Energia') WHERE numero_pedido LIKE 'PED%';
+UPDATE pedidos set categoria = REPLACE(categoria,'Alimentaciï¿½n','Alimentacion') WHERE numero_pedido LIKE 'PED%';
+UPDATE pedidos set categoria = REPLACE(categoria,'Consultorï¿½a','Consultoria') WHERE numero_pedido LIKE 'PED%';
+UPDATE pedidos set categoria = REPLACE(categoria,'Servicios Pï¿½blicos','Servicios Publicos') WHERE numero_pedido LIKE 'PED%';
+
+UPDATE pedidos set producto = REPLACE(producto,'ï¿½a','ia') WHERE numero_pedido LIKE 'PED%';
+UPDATE pedidos set producto = REPLACE(producto,'ï¿½n','on') WHERE numero_pedido LIKE 'PED%';
+UPDATE pedidos set producto = REPLACE(producto,'ï¿½','e') WHERE numero_pedido LIKE 'PED%';
+
+
+
+
+
+
+select * from pedidos;
