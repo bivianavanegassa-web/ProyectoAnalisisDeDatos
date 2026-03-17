@@ -124,9 +124,6 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2026-03-15 22:53:00
--- Realizamos consultas
--- SELECT * from proveedores WHERE categoria = "Servicios Publicos";
--- SELECT * from facturacion inner JOIN proveedores on facturacion.nit_proveedor  = proveedores.nit_proveedor WHERE proveedores.nombre_proveedor = "ABM";
 
 -- Limpieza de valores en los atributos de la tabla facturacion, para la correcta lectura de las tildes
 UPDATE facturacion set categoria = REPLACE(categoria,'EnergÃ­a','Energia') WHERE numero_radicado LIKE 'NT%';
@@ -151,7 +148,80 @@ UPDATE pedidos set producto = REPLACE(producto,'ï¿½','e') WHERE numero_pedido
 
 
 
+-- Realizamos consultas
 
-
-
+-- Para ver solo aquellos datos en los que aparece informacion de la categoria: Servicios Publicos
+SELECT * from proveedores WHERE categoria = "Servicios Publicos";
+-- Para ver al mismo tiempo la tabla de facturacion y de proveedores
+SELECT * from facturacion inner JOIN proveedores on facturacion.nit_proveedor  = proveedores.nit_proveedor WHERE proveedores.nombre_proveedor = "ABM";
+-- Para ver la tabla de pedidos
 select * from pedidos;
+
+-- Para consultar los tipos de categorias sin repetir en la tabla de pedidos
+SELECT DISTINCT categoria FROM pedidos;
+-- Para consultar los tipos de producto sin repetir en la tabla de pedidos
+SELECT DISTINCT producto FROM pedidos;
+
+
+-- Consultas tipo GROUP BY
+SELECT categoria, producto, COUNT(*) FROM pedidos GROUP BY categoria, producto;
+SELECT categoria, SUM(valor_total) FROM facturacion GROUP BY categoria;
+SELECT producto, SUM(cantidad) FROM pedidos GROUP BY producto;
+SELECT nombre_proveedor, COUNT(*) FROM pedidos GROUP BY nombre_proveedor;
+
+
+-- Subconsultas
+
+-- Facturas que están por encima del valor promedio
+SELECT numero_radicado, valor_total
+FROM facturacion
+WHERE valor_total >
+      (SELECT AVG(valor_total) FROM facturacion);
+	
+-- Productos que estan por encima del valor promedio
+SELECT producto, precio
+FROM pedidos
+WHERE precio >
+      (SELECT AVG(precio) FROM pedidos);
+      
+-- Funciones
+-- Funcion para calcular el valor total que se pago por todas las facturaciones
+DELIMITER //
+DROP FUNCTION IF EXISTS total_facturacion;
+CREATE FUNCTION total_facturacion()
+RETURNS DECIMAL(15,2)
+DETERMINISTIC
+BEGIN
+
+    DECLARE total DECIMAL(15,2);
+
+    SELECT SUM(valor_total)
+    INTO total
+    FROM facturacion;
+
+    RETURN total;
+
+END //
+-- Funcion para calcular el promedio de los precios de los productos
+DELIMITER //
+DROP FUNCTION IF EXISTS promedio_precios;
+CREATE FUNCTION promedio_precios()
+RETURNS DECIMAL(15,2)
+DETERMINISTIC
+BEGIN
+
+    DECLARE promedio_de_precios DECIMAL(15,2);
+
+    SELECT AVG(precio)
+    INTO promedio_de_precios
+    FROM pedidos;
+
+    RETURN promedio_de_precios;
+
+END //
+
+-- Ejecutamos las funciones
+select total_facturacion ();
+select promedio_precios ();
+
+
