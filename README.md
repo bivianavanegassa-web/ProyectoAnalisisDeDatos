@@ -13,7 +13,7 @@ De esta manera, el proyecto busca facilitar la comprensión del comportamiento d
 
 ## Objetivo General
 
-Analizar el comportamiento de las facturas en una empresa en los últimos 3 años
+Analizar el comportamiento de las facturas en una empresa en los últimos 4 años
 
 ## Objetivos Específicos
 
