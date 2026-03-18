@@ -1,0 +1,17 @@
+fecha_de_registro,numero_radicado,nit_proveedor,nombre_proveedor,moneda,fecha_factura,numero_factura,pedido,valor_total,estado_factura,categoria,tipo_factura,responsable,nit_proveedor,nombre_proveedor,categoria,ubicacion
+2024-06-22,NT00075,NIT0000000001,ABM,COP,2023-08-31,FAC-2,PED-4071,6200000.00,Pagada,"Servicios Publicos",Electronica,"Responsable 2",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2025-04-05,NT00134,NIT0000000001,ABM,COP,2023-02-08,FAC-3,PED-4141,6200000.00,Pendiente,"Servicios Publicos",Fisica,"Responsable 3",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2025-01-16,NT00192,NIT0000000001,ABM,COP,2022-07-07,FAC-4,PED-4211,6200000.00,Pagada,"Servicios Publicos",Electronica,"Responsable 4",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2024-08-07,NT00251,NIT0000000001,ABM,COP,2025-04-09,FAC-5,PED-4281,6200000.00,Pendiente,"Servicios Publicos",Fisica,"Responsable 5",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2023-03-18,NT00310,NIT0000000001,ABM,COP,2022-02-18,FAC-6,PED-4351,6200000.00,Pagada,"Servicios Publicos",Electronica,"Responsable 6",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2025-07-28,NT00369,NIT0000000001,ABM,COP,2022-04-13,FAC-7,PED-4421,6200000.00,Pendiente,"Servicios Publicos",Fisica,"Responsable 7",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2022-05-24,NT00428,NIT0000000001,ABM,COP,2022-07-16,FAC-8,PED-4491,6200000.00,Pagada,"Servicios Publicos",Electronica,"Responsable 8",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2024-02-29,NT00487,NIT0000000001,ABM,COP,2022-10-08,FAC-9,PED-4561,6200000.00,Pendiente,"Servicios Publicos",Fisica,"Responsable 9",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2022-04-28,NT00545,NIT0000000001,ABM,COP,2024-05-15,FAC-10,PED-4631,6200000.00,Pagada,"Servicios Publicos",Electronica,"Responsable 0",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2024-09-05,NT00604,NIT0000000001,ABM,COP,2025-05-23,FAC-11,PED-4701,6200000.00,Pendiente,"Servicios Publicos",Fisica,"Responsable 1",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2024-10-25,NT00663,NIT0000000001,ABM,COP,2025-06-07,FAC-12,PED-4771,6200000.00,Pagada,"Servicios Publicos",Electronica,"Responsable 2",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2022-12-19,NT00722,NIT0000000001,ABM,COP,2023-01-26,FAC-13,PED-4841,6200000.00,Pendiente,"Servicios Publicos",Fisica,"Responsable 3",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2023-06-28,NT00781,NIT0000000001,ABM,COP,2022-04-03,FAC-14,PED-4911,6200000.00,Pagada,"Servicios Publicos",Electronica,"Responsable 4",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2024-05-10,NT00839,NIT0000000001,ABM,COP,2024-02-10,FAC-15,PED-4981,6200000.00,Pendiente,"Servicios Publicos",Fisica,"Responsable 5",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2025-10-01,NT00898,NIT0000000001,ABM,COP,2024-02-26,FAC-16,PED-5051,6200000.00,Pagada,"Servicios Publicos",Electronica,"Responsable 6",NIT0000000001,ABM,"Servicios Publicos",Medellín
+2024-03-10,NT00957,NIT0000000001,ABM,COP,2025-11-01,FAC-17,PED-5121,6200000.00,Pendiente,"Servicios Publicos",Fisica,"Responsable 7",NIT0000000001,ABM,"Servicios Publicos",Medellín
