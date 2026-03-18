@@ -3,14 +3,10 @@ import mysql.connector
 import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
+import conexionMYSQL as cx
 
 # conexión a MySQL
-conexion = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="contraseñaDeMYSQL",
-    database="proyectoanalisisdedatos"
-)
+conexion =cx.conectar_mysql()
 
 cursor = conexion.cursor()
 
