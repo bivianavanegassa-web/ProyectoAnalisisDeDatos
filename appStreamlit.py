@@ -125,7 +125,7 @@ consulta_promedio_precios = "SELECT promedio_precios() AS promedio_precios"
 df_promedio_precios = pd.read_sql(consulta_promedio_precios, conexion)
 
 #Mostramos los datos en Streamlit
-st.title("Facturación de Proveedores")
+st.title("Facturación de la empresa en los últimos 4 años")
 
 #Resumen de facturacion total y promedio de precios
 col1, col2 = st.columns(2)
