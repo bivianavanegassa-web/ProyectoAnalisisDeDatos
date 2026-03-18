@@ -1,6 +1,8 @@
 import streamlit as st
 import mysql.connector
 import pandas as pd
+import matplotlib.pyplot as plt
+import plotly.express as px
 
 # conexión a MySQL
 conexion = mysql.connector.connect(
@@ -12,44 +14,47 @@ conexion = mysql.connector.connect(
 
 cursor = conexion.cursor()
 
+#Estilo de la pagina
+st.set_page_config(
+    page_title="Dashboard Facturación",
+    layout="wide"
+)
+
+# CSS personalizado 
+st.markdown("""
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+.metric-card {
+    background-color: #161b22;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
+    font-family: 'Inter', sans-serif;
+}
+
+.metric-title {
+    color: #8b949e;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.metric-value {
+    color: #58a6ff;
+    font-size: 32px;
+    font-weight: 700;
+}
+</style>
+""", unsafe_allow_html=True)
+
 #Nos cercioramos de que la conexión se haya establecido correctamente
 if conexion.is_connected():
     print("Conexión exitosa a MySQL")
 else:
     print("No se pudo conectar")
 
-# Crear funciones si no existen
-cursor.execute("""
-DROP FUNCTION IF EXISTS total_facturacion;
-CREATE FUNCTION total_facturacion()
-RETURNS DECIMAL(15,2)
-DETERMINISTIC
-BEGIN
-    DECLARE total DECIMAL(15,2);
-    SELECT SUM(valor_total)
-    INTO total
-    FROM facturacion;
-    RETURN total;
-END
-""")
-
-cursor.execute("""
-DROP FUNCTION IF EXISTS promedio_precios;
-CREATE FUNCTION promedio_precios()
-RETURNS DECIMAL(15,2)
-DETERMINISTIC
-BEGIN
-    DECLARE promedio_de_precios DECIMAL(15,2);
-    SELECT AVG(precio)
-    INTO promedio_de_precios
-    FROM pedidos;
-    RETURN promedio_de_precios;
-END
-""")
-
-"""
-Ejecutamos las consultas SQL
-"""
+#Ejecutamos consultas SQL para obtener los datos necesarios
 
 # Consulta para proveedores de categoría Servicios Públicos
 consulta_proveedores_servicios_publicos = "SELECT * FROM proveedores WHERE categoria = 'Servicios Publicos'"
@@ -75,9 +80,13 @@ df_categorias_distintas = pd.read_sql(consulta_categorias_distintas_pedidos, con
 consulta_productos_distintos_pedidos = "SELECT DISTINCT producto FROM pedidos"
 df_productos_distintos = pd.read_sql(consulta_productos_distintos_pedidos, conexion)
 
-# Consulta GROUP BY: conteo por categoría y producto
-consulta_conteo_categoria_producto = "SELECT categoria, producto, COUNT(*) AS conteo FROM pedidos GROUP BY categoria, producto"
-df_conteo_categoria_producto = pd.read_sql(consulta_conteo_categoria_producto, conexion)
+# Consulta GROUP BY: conteo por categoría 
+consulta_conteo_categoria = "SELECT categoria, COUNT(*) AS conteo_categoria FROM pedidos GROUP BY categoria"
+df_conteo_categoria = pd.read_sql(consulta_conteo_categoria, conexion)
+
+# Consulta GROUP BY: conteo por producto
+consulta_conteo_producto = "SELECT producto, COUNT(*) AS conteo_producto FROM pedidos GROUP BY producto"
+df_conteo_producto = pd.read_sql(consulta_conteo_producto, conexion)
 
 # Consulta GROUP BY: suma valor_total por categoría en facturación
 consulta_suma_valor_categoria_facturacion = "SELECT categoria, SUM(valor_total) AS suma_valor FROM facturacion GROUP BY categoria"
@@ -116,45 +125,86 @@ consulta_promedio_precios = "SELECT promedio_precios() AS promedio_precios"
 df_promedio_precios = pd.read_sql(consulta_promedio_precios, conexion)
 
 #Mostramos los datos en Streamlit
-st.title("Dashboard de Análisis de Datos")
+st.title("Facturación de Proveedores")
 
-st.subheader("Proveedores de Categoría Servicios Públicos")
-st.dataframe(df_proveedores_servicios)
+#Resumen de facturacion total y promedio de precios
+col1, col2 = st.columns(2)
 
-st.subheader("Facturación Unida con Proveedores (ABM)")
-st.dataframe(df_facturacion_abm)
+with col1:
+    st.markdown(f"""
+    <div class="metric-card">
+        <div class="metric-title">💰 Total Facturación</div>
+        <div class="metric-value">${df_total_facturacion['total_facturacion'][0]:,.0f}</div>
+    </div>
+    """, unsafe_allow_html=True)
 
-st.subheader("Todos los Pedidos")
-st.dataframe(df_todos_pedidos)
-
-st.subheader("Categorías Distintas en Pedidos")
-st.dataframe(df_categorias_distintas)
-
-st.subheader("Productos Distintos en Pedidos")
-st.dataframe(df_productos_distintos)
-
-st.subheader("Conteo por Categoría y Producto")
-st.dataframe(df_conteo_categoria_producto)
-
-st.subheader("Suma Valor Total por Categoría en Facturación")
-st.dataframe(df_suma_valor_categoria)
-
-st.subheader("Suma Cantidad por Producto en Pedidos")
-st.dataframe(df_suma_cantidad_producto)
-
-st.subheader("Conteo por Proveedor en Pedidos")
-st.dataframe(df_conteo_proveedor)
-
-st.subheader("Facturas por Encima del Valor Promedio")
-st.dataframe(df_facturas_sobre_promedio)
-
-st.subheader("Productos por Encima del Precio Promedio")
-st.dataframe(df_productos_sobre_promedio)
-
-st.subheader("Total Facturación")
-st.write(f"Total: {df_total_facturacion.iloc[0,0]}")
-
-st.subheader("Promedio de Precios")
-st.write(f"Promedio: {df_promedio_precios.iloc[0,0]}")
+with col2:
+    st.markdown(f"""
+    <div class="metric-card">
+        <div class="metric-title">📈 Promedio de Precios</div>
+        <div class="metric-value">${df_promedio_precios['promedio_precios'][0]:,.2f}</div>
+    </div>
+    """, unsafe_allow_html=True)
 
 
+fig_categoria = px.pie(
+    df_conteo_categoria,
+    names="categoria",
+    values="conteo_categoria",
+    title="Distribución de pedidos por categoría",
+    color_discrete_sequence=px.colors.sequential.Blues
+)
+
+
+fig_producto = px.bar(
+    df_conteo_producto,
+    x="producto",
+    y="conteo_producto",
+    title="Frecuencia de pedidos por producto",
+    color="conteo_producto",
+    color_continuous_scale="Blues"
+)
+
+
+#Valor total por categoría en facturación
+fig_valor_categoria = px.bar(
+    df_suma_valor_categoria,
+    x="categoria",
+    y="suma_valor",
+    title="Valor total por categoría",
+    color="suma_valor",
+    color_continuous_scale="Teal"
+)
+#cantidad en los productos
+st.plotly_chart(fig_valor_categoria, use_container_width=True)
+
+fig_cantidad = px.bar(
+    df_suma_cantidad_producto,
+    x="producto",
+    y="suma_cantidad",
+    title="Cantidad total por producto",
+    color="suma_cantidad",
+    color_continuous_scale="IceFire"
+)
+#conteo por proveedor
+st.plotly_chart(fig_cantidad, use_container_width=True)
+
+fig_proveedor = px.bar(
+    df_conteo_proveedor,
+    x="nombre_proveedor",
+    y="conteo",
+    title="Pedidos por proveedor",
+    color="conteo",
+    color_continuous_scale="Blues"
+)
+
+st.plotly_chart(fig_proveedor, use_container_width=True)
+
+#Organizacion tipo Dashboard
+col1, col2 = st.columns(2)
+
+with col1:
+    st.plotly_chart(fig_categoria, use_container_width=True)
+
+with col2:
+    st.plotly_chart(fig_producto, use_container_width=True)
