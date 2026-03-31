@@ -43,6 +43,76 @@ SELECT categoria, SUM(valor_total) FROM facturacion GROUP BY categoria;
 SELECT producto, SUM(cantidad) FROM pedidos GROUP BY producto;
 SELECT nombre_proveedor, COUNT(*) FROM pedidos GROUP BY nombre_proveedor;
 
+-- Top 5 de productos más pedidos segun la cantidad total
+-- Tener en cuenta solo uno y poder hacer análisis para esto 
+SELECT producto, SUM(cantidad) AS total_cantidad
+FROM pedidos
+GROUP BY producto
+ORDER BY total_cantidad DESC
+LIMIT 5;
+
+--Consulta para obtener el top 5 de productos más pedidos segun el valor total facturado
+SELECT producto, SUM(valor_total) AS total_facturado
+FROM pedidos
+GROUP BY producto
+ORDER BY total_facturado DESC
+LIMIT 5;
+
+-- Top 5 de proveedores con más facturaciones
+-- Conclusion imortante sobre el mejor proveedor, y mejorar relaciones comerciales con él
+SELECT nombre_proveedor, COUNT(*) AS total_facturaciones
+FROM facturacion
+GROUP BY nombre_proveedor
+ORDER BY total_facturaciones DESC
+LIMIT 5;
+
+-- Top 5 de proveedores con más valor total facturado
+SELECT nombre_proveedor, SUM(valor_total) AS total_facturado
+FROM facturacion
+GROUP BY nombre_proveedor
+ORDER BY total_facturado DESC
+LIMIT 5;
+
+-- Facturas pendientes de pago en el año 2025
+SELECT numero_radicado, nombre_proveedor, valor_total
+FROM facturacion
+WHERE YEAR(fecha_emision) = 2025 AND estado_pago = 'Pendiente'
+ORDER BY valor_total DESC;
+
+-- Total a pagar en el 2025 por facturas que no se han pagado
+-- Analizar si la empresa esta en riesgo tributario, demandas por el proveedor, etc.
+SELECT SUM(valor_total) AS total_pendiente_pago
+FROM facturacion   
+WHERE YEAR(fecha_emision) = 2025 AND estado_pago = 'Pendiente'; 
+
+-- Frecuencia de tipo de facturas electronica/fisica para cada proveedor
+SELECT nombre_proveedor, tipo_factura, COUNT(*) AS frecuencia
+FROM facturacion
+WHERE YEAR(fecha_emision) = 2025 AND estado_pago = 'Pendiente'
+GROUP BY nombre_proveedor, tipo_factura
+ORDER BY frecuencia DESC;
+
+-- Mes en el año donde mas se efectuan facturas
+SELECT MONTH(fecha_emision) AS mes, COUNT(*) AS total_facturas
+FROM facturacion
+WHERE YEAR(fecha_emision) = 2025
+GROUP BY mes
+ORDER BY total_facturas DESC;
+
+-- Responsable que quedo con mas facturas pendientes de pago
+-- Sensibilizar, capacitar y mejorar procesos con el responsable que tiene mas facturas pendientes de pago, para evitar riesgos financieros, tributarios, etc.
+-- A tener en cuenta en el cierre del año
+
+SELECT responsable, COUNT(*) AS total_pendientes
+FROM facturacion
+WHERE YEAR(fecha_emision) = 2025 AND estado_pago = 'Pendiente'
+GROUP BY responsable
+ORDER BY total_pendientes DESC
+LIMIT 1;    
+
+
+
+
 
 -- Subconsultas
 

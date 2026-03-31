@@ -120,6 +120,13 @@ df_total_facturacion = pd.read_sql(consulta_total_facturacion, conexion)
 consulta_promedio_precios = "SELECT promedio_precios() AS promedio_precios"
 df_promedio_precios = pd.read_sql(consulta_promedio_precios, conexion)
 
+#Consulta para obtener el top 5 de productos más pedidos segun el valor total facturado
+
+consulta_top5_productos = "SELECT producto, SUM(total_pedido) AS total_facturado FROM pedidos GROUP BY producto ORDER BY total_facturado DESC LIMIT 5"
+df_top5_productos = pd.read_sql(consulta_top5_productos, conexion)
+
+print(df_top5_productos)
+
 #Mostramos los datos en Streamlit
 st.title("Facturación de la empresa en los últimos 4 años")
 
