@@ -51,27 +51,12 @@ GROUP BY producto
 ORDER BY total_cantidad DESC
 LIMIT 5;
 
--- Top 5 productos menos pedidos
--- Tener en cuenta solo uno y poder hacer análisis para esto 
-SELECT producto, SUM(cantidad) AS total_cantidad
-FROM pedidos
-GROUP BY producto
-ORDER BY total_cantidad ASC
-LIMIT 5;
-
--- Consulta para obtener el top 5 de productos más pedidos segun el valor total facturado
-SELECT producto, SUM(total_pedido) AS total_facturado
+--Consulta para obtener el top 5 de productos más pedidos segun el valor total facturado
+SELECT producto, SUM(valor_total) AS total_facturado
 FROM pedidos
 GROUP BY producto
 ORDER BY total_facturado DESC
-LIMIT 3;
-
--- Consulta para obtener el top 5 de productos menos pedidos segun el valor total facturado
-SELECT producto, SUM(total_pedido) AS total_facturado
-FROM pedidos
-GROUP BY producto
-ORDER BY total_facturado ASC
-LIMIT 3;
+LIMIT 5;
 
 -- Top 5 de proveedores con más facturaciones
 -- Conclusion imortante sobre el mejor proveedor, y mejorar relaciones comerciales con él
@@ -81,13 +66,6 @@ GROUP BY nombre_proveedor
 ORDER BY total_facturaciones DESC
 LIMIT 5;
 
--- Consulta para saber cuáles son los proveedores con menos facturaciones
-SELECT nombre_proveedor, COUNT(*) AS total_facturaciones
-FROM facturacion
-GROUP BY nombre_proveedor
-ORDER BY total_facturaciones ASC
-LIMIT 3;
-
 -- Top 5 de proveedores con más valor total facturado
 SELECT nombre_proveedor, SUM(valor_total) AS total_facturado
 FROM facturacion
@@ -95,64 +73,29 @@ GROUP BY nombre_proveedor
 ORDER BY total_facturado DESC
 LIMIT 5;
 
--- Top 5 de proveedores con menos valor total facturado
-SELECT nombre_proveedor, SUM(valor_total) AS total_facturado
+-- Facturas pendientes de pago en el año 2025
+SELECT numero_radicado, nombre_proveedor, valor_total
 FROM facturacion
-GROUP BY nombre_proveedor
-ORDER BY total_facturado ASC
-LIMIT 3;
+WHERE YEAR(fecha_emision) = 2025 AND estado_pago = 'Pendiente'
+ORDER BY valor_total DESC;
 
--- Facturas pendientes de pago en cada año
-SELECT 
-    EXTRACT(YEAR FROM fecha_factura) AS anio,
-    COUNT(*) AS facturas_pendientes
-FROM facturacion
-WHERE estado_factura = 'Pendiente'
-GROUP BY anio
-ORDER BY anio;
-
--- Total a pagar en cada año por facturas que no se han pagado
+-- Total a pagar en el 2025 por facturas que no se han pagado
 -- Analizar si la empresa esta en riesgo tributario, demandas por el proveedor, etc.
-SELECT 
-    EXTRACT(YEAR FROM fecha_factura) AS anio,
-    SUM(valor_total) AS total_pendiente
-FROM facturacion
-WHERE estado_factura = 'Pendiente'
-GROUP BY anio
-ORDER BY anio;
+SELECT SUM(valor_total) AS total_pendiente_pago
+FROM facturacion   
+WHERE YEAR(fecha_emision) = 2025 AND estado_pago = 'Pendiente'; 
 
--- Frecuencia de tipo de facturas electronica/fisica
-SELECT 
-    tipo_factura,
-    COUNT(*) AS cantidad
+-- Frecuencia de tipo de facturas electronica/fisica para cada proveedor
+SELECT nombre_proveedor, tipo_factura, COUNT(*) AS frecuencia
 FROM facturacion
-GROUP BY tipo_factura;
+WHERE YEAR(fecha_emision) = 2025 AND estado_pago = 'Pendiente'
+GROUP BY nombre_proveedor, tipo_factura
+ORDER BY frecuencia DESC;
 
--- Mes en el año 2022 donde mas se efectuan facturas
-SELECT MONTH(fecha_factura) AS mes, COUNT(*) AS total_facturas
+-- Mes en el año donde mas se efectuan facturas
+SELECT MONTH(fecha_emision) AS mes, COUNT(*) AS total_facturas
 FROM facturacion
-WHERE YEAR(fecha_factura) = 2022
-GROUP BY mes
-ORDER BY total_facturas DESC;
-
--- Mes en el año 2023 donde mas se efectuan facturas
-SELECT MONTH(fecha_factura) AS mes, COUNT(*) AS total_facturas
-FROM facturacion
-WHERE YEAR(fecha_factura) = 2023
-GROUP BY mes
-ORDER BY total_facturas DESC;
-
--- Mes en el año 2024 donde mas se efectuan facturas
-SELECT MONTH(fecha_factura) AS mes, COUNT(*) AS total_facturas
-FROM facturacion
-WHERE YEAR(fecha_factura) = 2024
-GROUP BY mes
-ORDER BY total_facturas DESC;
-
--- Mes en el año 2025 donde mas se efectuan facturas
-SELECT MONTH(fecha_factura) AS mes, COUNT(*) AS total_facturas
-FROM facturacion
-WHERE YEAR(fecha_factura) = 2025
+WHERE YEAR(fecha_emision) = 2025
 GROUP BY mes
 ORDER BY total_facturas DESC;
 
@@ -162,9 +105,10 @@ ORDER BY total_facturas DESC;
 
 SELECT responsable, COUNT(*) AS total_pendientes
 FROM facturacion
-WHERE estado_factura = 'Pendiente'
+WHERE YEAR(fecha_emision) = 2025 AND estado_pago = 'Pendiente'
 GROUP BY responsable
-ORDER BY total_pendientes DESC;    
+ORDER BY total_pendientes DESC
+LIMIT 1;    
 
 
 
@@ -183,9 +127,7 @@ SELECT producto, precio
 FROM pedidos
 WHERE precio >
       (SELECT AVG(precio) FROM pedidos);
-
--- Consultas para informacion general
-
+      
 -- Funciones
 -- Funcion para calcular el valor total que se pago por todas las facturaciones
 DELIMITER //
