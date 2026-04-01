@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 import plotly.express as px
 from pandasql import sqldf
 
@@ -181,6 +180,16 @@ df_responsable_mas_pendientes = (
     .reset_index()
     .rename(columns={'numero_factura': 'total_pendientes'})
     .sort_values('total_pendientes', ascending=False)
+)
+
+# Facturas pendientes por proveedor
+df_facturas_pendientes_por_proveedor = (
+    df_facturacion[df_facturacion['estado_factura'] == 'Pendiente']
+    .groupby('nombre_proveedor')['numero_factura']
+    .count()
+    .reset_index()
+    .rename(columns={'numero_factura': 'facturas_pendientes'})
+    .sort_values('facturas_pendientes', ascending=False)
 )
 
 # Consultas adicionales: totales únicos y generales
@@ -370,6 +379,9 @@ elif opcion == "Facturas pendientes":
         st.dataframe(df_total_pendiente_por_anio)
     st.subheader("Responsables con Más Facturas Pendientes")
     fig = px.bar(df_responsable_mas_pendientes, x='responsable', y='total_pendientes', color='responsable', color_discrete_sequence=px.colors.qualitative.Set1)
+    st.plotly_chart(fig)
+    st.subheader("Proveedores con Más Facturas Pendientes")
+    fig = px.bar(df_facturas_pendientes_por_proveedor, x='nombre_proveedor', y='facturas_pendientes', color='nombre_proveedor', color_discrete_sequence=px.colors.qualitative.Set1)
     st.plotly_chart(fig)
 
 elif opcion == "Facturas":
