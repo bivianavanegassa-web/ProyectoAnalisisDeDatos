@@ -3,10 +3,6 @@ import pandas as pd
 import plotly.express as px
 from pandasql import sqldf
 
-"""
-Dataframes para cada una de las tablas
-"""
-
 #Dataframe para facturacion.csv
 df_facturacion= pd.read_csv("Data/Facturacion.csv", sep=';', encoding='latin1')
 
@@ -190,6 +186,7 @@ df_facturas_pendientes_por_proveedor = (
     .reset_index()
     .rename(columns={'numero_factura': 'facturas_pendientes'})
     .sort_values('facturas_pendientes', ascending=False)
+    .head(10)
 )
 
 # Consultas adicionales: totales únicos y generales
@@ -212,6 +209,26 @@ df_totales_generales = pd.DataFrame({
     'valor': [total_proveedores_unicos, total_facturaciones, total_valor_facturado, total_productos_unicos]
 })
 
+# Limpiar nombres: remover tildes y truncar si son largos
+import unicodedata
+
+def limpiar_nombres(df, columna):
+    df[columna] = df[columna].astype(str).apply(lambda x: unicodedata.normalize('NFKD', x).encode('ascii', 'ignore').decode('ascii'))
+    df[columna] = df[columna].apply(lambda x: x[:20] + '...' if len(x) > 20 else x)
+    return df
+
+# Aplicar limpieza a DataFrames relevantes
+df_top5_productos_mas_pedidos_cantidad = limpiar_nombres(df_top5_productos_mas_pedidos_cantidad, 'Producto')
+df_top5_productos_menos_pedidos_cantidad = limpiar_nombres(df_top5_productos_menos_pedidos_cantidad, 'Producto')
+df_top5_productos_mas_pedidos_valor = limpiar_nombres(df_top5_productos_mas_pedidos_valor, 'Producto')
+df_top5_productos_menos_pedidos_valor = limpiar_nombres(df_top5_productos_menos_pedidos_valor, 'Producto')
+df_top5_proveedores_mas_facturaciones = limpiar_nombres(df_top5_proveedores_mas_facturaciones, 'nombre_proveedor')
+df_top5_proveedores_menos_facturaciones = limpiar_nombres(df_top5_proveedores_menos_facturaciones, 'nombre_proveedor')
+df_top5_proveedores_mas_valor_facturado = limpiar_nombres(df_top5_proveedores_mas_valor_facturado, 'nombre_proveedor')
+df_top5_proveedores_menos_valor_facturado = limpiar_nombres(df_top5_proveedores_menos_valor_facturado, 'nombre_proveedor')
+df_facturas_pendientes_por_proveedor = limpiar_nombres(df_facturas_pendientes_por_proveedor, 'nombre_proveedor')
+df_responsable_mas_pendientes = limpiar_nombres(df_responsable_mas_pendientes, 'responsable')
+
 # Estilo de la pagina
 st.set_page_config(
     page_title="Dashboard Facturación",
@@ -229,7 +246,7 @@ st.markdown("""
     border-radius: 15px;
     text-align: center;
     box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     border-left: 5px solid #6a0dad; /* Púrpura */
 }
 
@@ -248,11 +265,51 @@ st.markdown("""
 .sidebar-button {
     background-color: #6a0dad; /* Púrpura */
     color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
+    border: 2px solid #6a0dad; /* Borde morado */
+    padding: 15px 20px;
+    border-radius: 0px; /* Rectangulares */
     margin: 5px;
     width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-button:hover {
+    background-color: #1f77b4; /* Azul al hover */
+}
+
+.sidebar-button.selected {
+    background-color: #1f77b4; /* Azul cuando seleccionado */
+    color: white;
+}
+
+/* Estilos para radio buttons */
+.stRadio > div > label {
+    background-color: #87CEEB; /* Azul celeste */
+    color: white;
+    border: 2px solid #87CEEB;
+    padding: 10px 15px; /* Más pequeño */
+    border-radius: 10px; /* Esquinas suavizadas */
+    margin: 5px 0;
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.stRadio > div > label:hover {
+    background-color: #4682B4; /* Azul más oscuro */
+    color: white;
+}
+
+.stRadio > div > input[type="radio"]:checked + label {
+    background-color: #4682B4; /* Azul más oscuro */
+    color: white;
 }
 
 .sub-button {
@@ -270,6 +327,11 @@ st.markdown("""
     border-radius: 10px;
     box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
     margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -314,11 +376,27 @@ def mostrar_metricas_generales():
 # Escala de salud de la empresa
 def mostrar_escala_salud():
     total_pendiente = df_total_pendiente_por_anio['total_pendiente'].sum()
-    salud_porcentaje = max(0, (total_valor_facturado - total_pendiente) / total_valor_facturado * 100)
-    st.subheader("Escala de Salud de la Empresa")
-    fig = px.bar(x=['Salud Financiera'], y=[salud_porcentaje], color_discrete_sequence=['#1f77b4'])
-    fig.update_layout(yaxis_range=[0, 100], title="Porcentaje de Salud (Valor Facturado - Pendiente)")
-    st.plotly_chart(fig)
+    salud_porcentaje = max(0, (total_pendiente / total_valor_facturado) * 100)
+    if salud_porcentaje < 30:
+        emoji = "🟢"
+        status = "Saludable"
+        color = "#28a745"  # Verde
+    elif salud_porcentaje < 70:
+        emoji = "🟡"
+        status = "Moderado"
+        color = "#ffc107"  # Amarillo
+    else:
+        emoji = "🔴"
+        status = "Alto Riesgo"
+        color = "#dc3545"  # Rojo
+    st.subheader("📊 Escala de Salud de la Empresa")
+    progress_html = f"""
+    <div style="width: 100%; background-color: #e9ecef; border-radius: 10px; height: 20px;">
+        <div style="width: {salud_porcentaje}%; background-color: {color}; height: 20px; border-radius: 10px;"></div>
+    </div>
+    """
+    st.markdown(progress_html, unsafe_allow_html=True)
+    st.write(f"{emoji} Porcentaje de Endeudamiento: {salud_porcentaje:.1f}% - {status}")
 
 # Mostrar métricas y salud en todas las páginas
 mostrar_metricas_generales()
@@ -326,66 +404,99 @@ mostrar_escala_salud()
 
 # Contenido basado en la opción seleccionada
 if opcion == "Productos":
-    st.header("Análisis de Productos")
+    st.header("📦 Análisis de Productos")
     col1, col2 = st.columns(2)
     with col1:
-        st.subheader("Top 5 Productos Más Pedidos (Cantidad)")
+        st.subheader("Top 5 Productos con mayor volumen de facturacion")
         fig = px.bar(df_top5_productos_mas_pedidos_cantidad, x='Producto', y='total_cantidad', color='Producto', color_discrete_sequence=px.colors.qualitative.Set1)
+        fig.update_xaxes(showticklabels=False)
+        fig.update_layout(showlegend=True)
         st.plotly_chart(fig)
     with col2:
-        st.subheader("Top 5 Productos Menos Pedidos (Cantidad)")
+        st.subheader("Top 5 Productos con mayor valor facturado")
         fig = px.bar(df_top5_productos_menos_pedidos_cantidad, x='Producto', y='total_cantidad', color='Producto', color_discrete_sequence=px.colors.qualitative.Set1)
+        fig.update_xaxes(showticklabels=False)
+        fig.update_layout(showlegend=True)
         st.plotly_chart(fig)
     col3, col4 = st.columns(2)
     with col3:
-        st.subheader("Top 5 Productos Más Pedidos (Valor)")
+        st.subheader("Productos con menor volumen de facturacion")
         fig = px.bar(df_top5_productos_mas_pedidos_valor, x='Producto', y='total_facturado', color='Producto', color_discrete_sequence=px.colors.qualitative.Set1)
+        fig.update_xaxes(showticklabels=False)
+        fig.update_layout(showlegend=True)
         st.plotly_chart(fig)
     with col4:
-        st.subheader("Top 5 Productos Menos Pedidos (Valor)")
+        st.subheader("Productos con menor valor facturado")
         fig = px.bar(df_top5_productos_menos_pedidos_valor, x='Producto', y='total_facturado', color='Producto', color_discrete_sequence=px.colors.qualitative.Set1)
+        fig.update_xaxes(showticklabels=False)
+        fig.update_layout(showlegend=True)
         st.plotly_chart(fig)
 
 elif opcion == "Proveedores":
-    st.header("Análisis de Proveedores")
+    st.header("🏭 Análisis de Proveedores")
     col1, col2 = st.columns(2)
     with col1:
-        st.subheader("Top 5 Proveedores con Más Facturaciones")
+        st.subheader("Top 5 Proveedores con mayor volumen de facturacion")
         fig = px.bar(df_top5_proveedores_mas_facturaciones, x='nombre_proveedor', y='total_facturaciones', color='nombre_proveedor', color_discrete_sequence=px.colors.qualitative.Set1)
+        fig.update_xaxes(showticklabels=False)
+        fig.update_layout(showlegend=True)
         st.plotly_chart(fig)
     with col2:
-        st.subheader("Top 5 Proveedores con Menos Facturaciones")
+        st.subheader("Proveedores con menor volumen de facturacion")
         fig = px.bar(df_top5_proveedores_menos_facturaciones, x='nombre_proveedor', y='total_facturaciones', color='nombre_proveedor', color_discrete_sequence=px.colors.qualitative.Set1)
+        fig.update_xaxes(showticklabels=False)
+        fig.update_layout(showlegend=True)
         st.plotly_chart(fig)
     col3, col4 = st.columns(2)
     with col3:
-        st.subheader("Top 5 Proveedores con Más Valor Facturado")
+        st.subheader("Top 5 Proveedores con mayor Valor Facturado")
         fig = px.bar(df_top5_proveedores_mas_valor_facturado, x='nombre_proveedor', y='total_facturado', color='nombre_proveedor', color_discrete_sequence=px.colors.qualitative.Set1)
+        fig.update_xaxes(showticklabels=False)
+        fig.update_layout(showlegend=True)
         st.plotly_chart(fig)
     with col4:
-        st.subheader("Top 5 Proveedores con Menos Valor Facturado")
+        st.subheader("Proveedores con menor Valor Facturado")
         fig = px.bar(df_top5_proveedores_menos_valor_facturado, x='nombre_proveedor', y='total_facturado', color='nombre_proveedor', color_discrete_sequence=px.colors.qualitative.Set1)
+        fig.update_xaxes(showticklabels=False)
+        fig.update_layout(showlegend=True)
         st.plotly_chart(fig)
 
 elif opcion == "Facturas pendientes":
-    st.header("Análisis de Facturas Pendientes")
+    st.header("⏳ Análisis de Facturas Pendientes")
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("Facturas Pendientes por Año")
         fig = px.bar(df_facturas_pendientes_por_anio, x='anio', y='facturas_pendientes', color='anio', color_discrete_sequence=px.colors.qualitative.Set1)
+        fig.update_xaxes(showticklabels=False)
+        fig.update_layout(showlegend=True)
         st.plotly_chart(fig)
     with col2:
-        st.subheader("Total Pendiente por Año")
-        st.dataframe(df_total_pendiente_por_anio)
+        st.subheader("Valor Total Pendiente por Año")
+        def estilo_violetta(row):
+            colores = ['#f3e5ff', '#e0bbff']
+            return ['background-color: %s' % colores[i % 2] for i in range(len(row))]
+        st.dataframe(
+            df_total_pendiente_por_anio.style
+                .apply(estilo_violetta, axis=1)
+                .hide(axis='index')
+                .set_table_styles([
+                    {'selector': 'th', 'props': [('background-color', '#d1c4e9'), ('color', '#3f2f67'), ('font-weight', 'bold')]},
+                    {'selector': 'td', 'props': [('padding', '8px'), ('text-align', 'center'), ('color', '#2a1f4b')]}
+                ])
+        )
     st.subheader("Responsables con Más Facturas Pendientes")
     fig = px.bar(df_responsable_mas_pendientes, x='responsable', y='total_pendientes', color='responsable', color_discrete_sequence=px.colors.qualitative.Set1)
+    fig.update_xaxes(showticklabels=False)
+    fig.update_layout(showlegend=True)
     st.plotly_chart(fig)
-    st.subheader("Proveedores con Más Facturas Pendientes")
+    st.subheader("Top 10 Proveedores con Facturas Pendientes")
     fig = px.bar(df_facturas_pendientes_por_proveedor, x='nombre_proveedor', y='facturas_pendientes', color='nombre_proveedor', color_discrete_sequence=px.colors.qualitative.Set1)
+    fig.update_xaxes(showticklabels=False)
+    fig.update_layout(showlegend=True)
     st.plotly_chart(fig)
 
 elif opcion == "Facturas":
-    st.header("Análisis de Facturas por Año")
+    st.header("📄 Análisis de Facturas por Año")
     anio_seleccionado = st.selectbox("Selecciona un año:", [2022, 2023, 2024, 2025])
     if anio_seleccionado == 2022:
         df_mes = df_mes_mas_facturas_2022
@@ -397,15 +508,17 @@ elif opcion == "Facturas":
         df_mes = df_mes_mas_facturas_2025
     st.subheader(f"Facturas por Mes en {anio_seleccionado}")
     fig = px.bar(df_mes, x='mes', y='total_facturas', color='mes', color_discrete_sequence=px.colors.qualitative.Set1)
+    fig.update_xaxes(showticklabels=False)
+    fig.update_layout(showlegend=True)
     st.plotly_chart(fig)
 
 elif opcion == "Copiloto":
-    st.header("Copiloto - Próximamente")
+    st.header("🤖 Copiloto - Próximamente")
 
 else:
     st.header("🏢 Bienvenido al Dashboard de Facturación Interactivo")
     st.markdown("""
-    <div style="background: linear-gradient(135deg, #6a0dad, #1f77b4); color: white; padding: 30px; border-radius: 15px; text-align: center; font-family: 'Inter', sans-serif; box-shadow: 0px 4px 15px rgba(0,0,0,0.3);">
+    <div style="background: linear-gradient(135deg, #6a0dad, #1f77b4); color: white; padding: 30px; border-radius: 15px; text-align: center; font-family: 'Helvetica Neue', sans-serif; box-shadow: 0px 4px 15px rgba(0,0,0,0.3);">
         <h2 style="color: #ff7f0e; margin-bottom: 20px;">Descubre Insights Poderosos para tu Empresa</h2>
         <p style="font-size: 18px; line-height: 1.6;">
             Explora análisis detallados de <strong>productos</strong>, <strong>proveedores</strong> y <strong>facturaciones</strong> con gráficos interactivos que te permiten identificar tendencias, optimizar procesos y tomar decisiones estratégicas. 
